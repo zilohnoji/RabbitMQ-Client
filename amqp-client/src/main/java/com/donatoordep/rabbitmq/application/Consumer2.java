@@ -6,11 +6,10 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 
 import java.io.IOException;
-import java.net.ConnectException;
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.TimeoutException;
 
-public class Consumer {
+public class Consumer2 {
 
     private static final String HOST = "localhost";
     private static final String EXCHANGE_NAME = "logs";
